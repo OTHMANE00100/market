@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -243,7 +242,7 @@
         function sendEmail(event) {
             event.preventDefault();
             const form = event.target;
-            emailjs.sendForm('service_9ajrjqq', 'template_h4temsr', form)//templatekey .servece key
+            emailjs.sendForm('service_9ajrjqq', 'template_h4temsr', form)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     alert('Your message has been sent!');
@@ -257,7 +256,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>market space</h1>
+            <h1>Market Space</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -278,7 +277,7 @@
     <main>
         <section id="home" class="hero">
             <div class="content">
-                <h2>Welcome to your home market</h2>
+                <h2>Welcome to Your Home Market</h2>
                 <p>Discover our services and how we can help you grow your business.</p>
                 <a href="#services" class="btn">Learn More</a>
             </div>
@@ -293,17 +292,17 @@
 
         <section id="services" class="services">
             <div class="container">
-                <h2>Our products </h2>
+                <h2>Our Products</h2>
                 <div class="service-item">
-                    <h3>product One</h3>
+                    <h3>Product One</h3>
                     <p>Details about product One.</p>
                 </div>
                 <div class="service-item">
-                    <h3>product Two</h3>
+                    <h3>Product Two</h3>
                     <p>Details about product Two.</p>
                 </div>
                 <div class="service-item">
-                    <h3>product Three</h3>
+                    <h3>Product Three</h3>
                     <p>Details about product Three.</p>
                 </div>
             </div>
@@ -319,10 +318,9 @@
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
 
-                    <label for="product">product</label>
+                    <label for="product">Product</label>
                     <input type="text" id="product" name="product" required>
-                    <label for="phone number">phone number</label>
-                    <textarea id="phone number" name="phone number" required></textarea>
+
                     <label for="message">Message</label>
                     <textarea id="message" name="message" required></textarea>
 
@@ -337,4 +335,5 @@
     </footer>
 </body>
 </html>
+
 
